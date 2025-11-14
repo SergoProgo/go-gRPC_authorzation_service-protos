@@ -5,7 +5,7 @@ syntax = "proto3";
 package auth;
 
 // Настройки для генерации Go кода.
-option go_package = ".;auth";
+option go_package = "ssov1";
 
 // Объект, который отправляется при вызове RPC-метода (ручки) Register.
 message RegisterRequest {
